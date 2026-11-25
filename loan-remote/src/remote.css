@@ -1,0 +1,9 @@
+.loan-panel { margin-top:12px; border:1px solid #dce8f7; border-radius:12px; padding:15px; background:#f8fbff; color:#18304f; }
+.loan-enabled,.loan-disabled { border-radius:9px; padding:12px; background:#e5f6eb; color:#176b42; }
+.loan-disabled { background:#fff0ed; color:#9b3e31; }
+.loan-steps { display:grid; gap:7px; margin-top:10px; }
+.loan-steps span { padding:8px 10px; border:1px solid #cfe2f7; border-radius:7px; background:white; font-size:13px; }
+.api-box { border-top:1px solid #dce6f2; margin-top:15px; padding-top:14px; }
+.api-box button { margin-top:6px; background:#174ea6; color:#fff; border:0; border-radius:7px; padding:9px 12px; cursor:pointer; font-weight:700; }
+.api-success { color:#176b42; } .api-disabled,.api-error { color:#a43e32; } .muted-small,.standalone-note { color:#697b92; font-size:12px; }
+code { background:#e9eef6; padding:2px 4px; border-radius:4px; }

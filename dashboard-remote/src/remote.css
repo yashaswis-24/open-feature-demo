@@ -1,0 +1,10 @@
+.remote-state { border: 1px solid #dce8f7; border-radius: 12px; background: #f8fbff; padding: 15px; margin-top: 12px; color: #18304f; }
+.remote-state.disabled { background: #fff8f6; border-color: #f3d8d2; }
+.success-banner { padding: 10px 12px; background: #e2f5e9; color: #176b42; border-radius: 8px; font-weight: 750; }
+.mini-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; }
+.metric { padding:13px; background:white; border:1px solid #e3eaf4; border-radius:9px; display:grid; gap:5px; }
+.metric span,.muted-small { color:#697b92; font-size:12px; }
+.metric strong { font-size:22px; }
+.feature-note { margin-top:12px; padding:10px; border-radius:8px; background:#edf6ff; color:#25517e; font-size:13px; }
+.standalone-note { margin:12px 0; color:#60738b; font-size:12px; }
+code { background:#e9eef6; padding:2px 4px; border-radius:4px; }

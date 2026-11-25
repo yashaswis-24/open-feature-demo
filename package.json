@@ -1,0 +1,16 @@
+{
+  "name": "lendistry-openfeature-microfrontend-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["host-app", "dashboard-remote", "loan-remote"],
+  "scripts": {
+    "dev:api": "node mock-server/server.cjs",
+    "dev:host": "npm run dev --workspace host-app",
+    "build:remotes": "npm run build --workspace dashboard-remote && npm run build --workspace loan-remote",
+    "serve:dashboard": "npm run preview --workspace dashboard-remote",
+    "serve:loan": "npm run preview --workspace loan-remote",
+    "build:host": "npm run build --workspace host-app",
+    "build": "npm run build:remotes && npm run build:host"
+  }
+}
